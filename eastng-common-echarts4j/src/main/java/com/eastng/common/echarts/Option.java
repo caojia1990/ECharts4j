@@ -20,7 +20,7 @@ public class Option {
 	
 	private List<Series> series;
 	
-	public class Title{
+	public static class Title{
 		private String text;
 		private String subtext;
 		public String getText() {
@@ -49,7 +49,7 @@ public class Option {
 		}
 	}
 	
-	public class Legend{
+	public static class Legend{
 		private List<String> data;
 
 		public List<String> getData() {
@@ -85,7 +85,7 @@ public class Option {
 		}
 	}
 	
-	public class Series{
+	public static class Series{
 		private String name;
 		private String type;
 		private List<String> data;
